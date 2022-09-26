@@ -1,0 +1,67 @@
+@charset "UFT-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Belgium";
+}
+@font-face {
+    font-family: "Belgium";
+    src: url('Belgium Victory.woff2')format("woff");
+}
+body{
+    background:linear-gradient(to top, rgb(223, 187, 187), rgb(45, 45, 56));
+    background-attachment: fixed;
+}
+h1{
+    color: #fff;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+.menu > a {
+    margin-left: 10px;
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background-color: rgb(178, 104, 247);
+    border-radius: 4px;
+    
+}
+section{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    
+}
+p {
+    text-indent: 1em;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(207, 188, 188);
+    
+}
+.frame{
+   display: flex;
+   position: absolute;
+   left: 24%;
+   bottom: 20%;
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+    width: 100vw;
+    text-align: center;
+}
+footer > p{
+
+    color: black;
+    font-size: 20px;
+} 
